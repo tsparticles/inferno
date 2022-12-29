@@ -1,0 +1,47 @@
+Invoking: pnpm run prettify:src && pnpm run lint && webpack --mode production && pnpm run prettify:readme 
+
+> inferno-particles@2.0.6 prettify:src /Users/matteo/Projects/GitHub/tsparticles/tsparticles/components/inferno
+> prettier --write ./src/*
+
+src/index.ts 229ms
+src/IParticlesProps.ts 16ms
+src/IParticlesState.ts 4ms
+src/Particles.tsx 29ms
+
+> inferno-particles@2.0.6 lint /Users/matteo/Projects/GitHub/tsparticles/tsparticles/components/inferno
+> eslint src --ext .js,.jsx,.ts,.tsx --fix
+
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+clean-webpack-plugin: removed dist/particles.js
+clean-webpack-plugin: removed dist/particles.js.LICENSE.txt
+asset particles.js 105 KiB [emitted] [minimized] (name: main) 1 related asset
+orphan modules 252 KiB [orphan] 292 modules
+runtime modules 937 bytes 4 modules
+built modules 266 KiB [built]
+  modules by path ../../common/temp/node_modules/.pnpm/@babel+runtime@7.18.0/node_modules/@babel/runtime/ 14.2 KiB
+    ../../common/temp/node_modules/.pnpm/@babel+runtime@7.18.0/node_modules/@babel/runtime/regenerator/index.js 61 bytes [built] [code generated]
+    ../../common/temp/node_modules/.pnpm/@babel+runtime@7.18.0/node_modules/@babel/runtime/helpers/regeneratorRuntime.js 13.6 KiB [built] [code generated]
+    ../../common/temp/node_modules/.pnpm/@babel+runtime@7.18.0/node_modules/@babel/runtime/helpers/typeof.js 555 bytes [built] [code generated]
+  ./src/index.ts + 132 modules 250 KiB [not cacheable] [built] [code generated]
+  ../../common/temp/node_modules/.pnpm/fast-deep-equal@3.1.3/node_modules/fast-deep-equal/react.js 1.42 KiB [built] [code generated]
+webpack 5.72.1 compiled successfully in 3363 ms
+
+> inferno-particles@2.0.6 prettify:readme /Users/matteo/Projects/GitHub/tsparticles/tsparticles/components/inferno
+> prettier --write ./README.md
+
+README.md 116ms

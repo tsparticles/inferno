@@ -1,0 +1,24 @@
+Invoking: webpack --mode production 
+clean-webpack-plugin: removed dist/947.bundle.js
+clean-webpack-plugin: removed dist/bundle.js
+clean-webpack-plugin: removed dist/bundle.js.LICENSE.txt
+clean-webpack-plugin: removed dist/index.html
+asset bundle.js 310 KiB [emitted] [minimized] [big] (name: main) 1 related asset
+asset 947.bundle.js 39.1 KiB [emitted] [minimized]
+asset index.html 266 bytes [emitted]
+orphan modules 477 KiB [orphan] 408 modules
+runtime modules 8.14 KiB 12 modules
+cacheable modules 704 KiB
+  modules by path ../../ 299 KiB
+    modules by path ../../common/temp/node_modules/.pnpm/ 82.7 KiB 9 modules
+    modules by path ../../components/inferno/ 157 KiB
+      ../../components/inferno/index.js 193 bytes [built] [code generated]
+      ../../components/inferno/dist/particles.js 157 KiB [built] [code generated]
+    ../../plugins/polygonMask/dist/esm/pathseg.js 58.8 KiB [built] [code generated]
+  modules by path ./src/ 405 KiB
+    modules by path ./src/components/ 1.24 KiB
+      ../../common/temp/node_modules/.pnpm/css-loader@6.7.1_webpack@5.72.1/node_modules/css-loader/dist/cjs.js!../../common/temp/node_modules/.pnpm/sass-loader@12.6.0_7azlhuq2aqll5ko7pz24tkciwq/node_modules/sass-loader/dist/cjs.js!./src/components/Incrementer.scss 638 bytes [built] [code generated]
+      ../../common/temp/node_modules/.pnpm/css-loader@6.7.1_webpack@5.72.1/node_modules/css-loader/dist/cjs.js!./src/components/Visualizer.css 628 bytes [built] [code generated]
+    ./src/index.tsx + 237 modules 403 KiB [built] [code generated]
+    ../../common/temp/node_modules/.pnpm/css-loader@6.7.1_webpack@5.72.1/node_modules/css-loader/dist/cjs.js!./src/main.css 1.19 KiB [built] [code generated]
+webpack 5.72.1 compiled successfully in 5302 ms
