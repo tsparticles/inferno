@@ -14,7 +14,7 @@
     "license": "MIT",
     "dependencies": {
         "inferno": "^8.0.5",
-        "@tsparticles/inferno": "^2.7.1",
+        "inferno-particles": "^2.7.1",
         "tsparticles": "^2.7.1",
         "tsparticles-demo-configs": "^2.7.1",
         "tsparticles-engine": "^2.7.1"

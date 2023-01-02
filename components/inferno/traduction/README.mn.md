@@ -1,8 +1,8 @@
 [![banner](https://particles.js.org/images/banner3.png)](https://particles.js.org)
 
-# @tsparticles/inferno
+# inferno-particles
 
-[![npm](https://img.shields.io/npm/v/@tsparticles/inferno)](https://www.npmjs.com/package/@tsparticles/inferno) [![npm](https://img.shields.io/npm/dm/@tsparticles/inferno)](https://www.npmjs.com/package/@tsparticles/inferno)
+[![npm](https://img.shields.io/npm/v/inferno-particles)](https://www.npmjs.com/package/inferno-particles) [![npm](https://img.shields.io/npm/dm/inferno-particles)](https://www.npmjs.com/package/inferno-particles)
 
 Албан ёсны [tsParticles](https://github.com/matteobruni/tsparticles) Inferno компонэнт
 
@@ -13,13 +13,13 @@
 ## Татах
 
 ```shell
-npm install @tsparticles/inferno inferno
+npm install inferno-particles inferno
 ```
 
 or
 
 ```shell
-yarn add @tsparticles/inferno inferno
+yarn add inferno-particles inferno
 ```
 
 ## Хэрхэн ашиглах
@@ -31,7 +31,7 @@ yarn add @tsparticles/inferno inferno
 _Remote url_
 
 ```javascript
-import Particles from "@tsparticles/inferno";
+import Particles from "inferno-particles";
 
 class App extends Component {
     constructor(props) {
@@ -67,7 +67,7 @@ class App extends Component {
 _Options object_
 
 ```javascript
-import Particles from "@tsparticles/inferno";
+import Particles from "inferno-particles";
 
 class App extends Component {
     constructor(props) {

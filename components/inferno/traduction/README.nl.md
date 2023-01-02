@@ -1,8 +1,8 @@
 [![banner](https://particles.js.org/images/banner3.png)](https://particles.js.org)
 
-# @tsparticles/inferno
+# inferno-particles
 
-[![npm](https://img.shields.io/npm/v/@tsparticles/inferno)](https://www.npmjs.com/package/@tsparticles/inferno) [![npm](https://img.shields.io/npm/dm/@tsparticles/inferno)](https://www.npmjs.com/package/@tsparticles/inferno)
+[![npm](https://img.shields.io/npm/v/inferno-particles)](https://www.npmjs.com/package/inferno-particles) [![npm](https://img.shields.io/npm/dm/inferno-particles)](https://www.npmjs.com/package/inferno-particles)
 
 Officiële [tsParticles](https://github.com/matteobruni/tsparticles) Inferno component
 
@@ -13,13 +13,13 @@ Officiële [tsParticles](https://github.com/matteobruni/tsparticles) Inferno com
 ## Installatie
 
 ```shell
-npm install @tsparticles/inferno
+npm install inferno-particles
 ```
 
 or
 
 ```shell
-yarn add @tsparticles/inferno
+yarn add inferno-particles
 ```
 
 ## Hoe je het gebruikt
@@ -29,7 +29,7 @@ yarn add @tsparticles/inferno
 Voorbeeld:
 
 ```javascript
-import Particles from "@tsparticles/inferno";
+import Particles from "inferno-particles";
 
 class App extends Component {
     render() {
