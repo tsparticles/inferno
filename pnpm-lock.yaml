@@ -63,67 +63,6 @@ importers:
       webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
       webpack-dev-server: 4.11.1_rjsyjcrmk25kqsjzwkvj3a2evq
 
-  components-legacy/inferno:
-    specifiers:
-      '@babel/core': ^7.20.7
-      '@babel/plugin-proposal-class-properties': ^7.18.6
-      '@babel/plugin-transform-runtime': ^7.19.6
-      '@babel/preset-env': ^7.20.2
-      '@babel/preset-typescript': ^7.18.6
-      '@babel/runtime': ^7.20.7
-      '@tsparticles/prettier-config': ^1.5.0
-      '@typescript-eslint/eslint-plugin': ^5.47.0
-      '@typescript-eslint/parser': ^5.47.0
-      babel-loader: ^9.1.0
-      babel-plugin-inferno: ^6.5.0
-      clean-webpack-plugin: ^4.0.0
-      css-loader: ^6.7.3
-      eslint: ^8.30.0
-      eslint-config-prettier: ^8.5.0
-      fast-deep-equal: ^3.1.3
-      html-webpack-plugin: ^5.5.0
-      inferno: ^8.0.5
-      node-sass: ^8.0.0
-      prettier: ^2.8.1
-      sass-loader: ^13.2.0
-      source-map-loader: ^4.0.1
-      style-loader: ^3.3.1
-      tsparticles-engine: ^2.7.1
-      typescript: ^4.9.4
-      webpack: ^5.75.0
-      webpack-cli: ^5.0.1
-      webpack-dev-server: ^4.11.1
-    dependencies:
-      fast-deep-equal: 3.1.3
-      tsparticles-engine: 2.7.1
-    devDependencies:
-      '@babel/core': 7.20.7
-      '@babel/plugin-proposal-class-properties': 7.18.6_@babel+core@7.20.7
-      '@babel/plugin-transform-runtime': 7.19.6_@babel+core@7.20.7
-      '@babel/preset-env': 7.20.2_@babel+core@7.20.7
-      '@babel/preset-typescript': 7.18.6_@babel+core@7.20.7
-      '@babel/runtime': 7.20.7
-      '@tsparticles/prettier-config': 1.5.0_prettier@2.8.1
-      '@typescript-eslint/eslint-plugin': 5.47.1_txmweb6yn7coi7nfrp22gpyqmy
-      '@typescript-eslint/parser': 5.47.1_lzzuuodtsqwxnvqeq4g4likcqa
-      babel-loader: 9.1.0_lkd654lvpl423ugsqn5olungie
-      babel-plugin-inferno: 6.5.0_@babel+core@7.20.7
-      clean-webpack-plugin: 4.0.0_webpack@5.75.0
-      css-loader: 6.7.3_webpack@5.75.0
-      eslint: 8.30.0
-      eslint-config-prettier: 8.5.0_eslint@8.30.0
-      html-webpack-plugin: 5.5.0_webpack@5.75.0
-      inferno: 8.0.5
-      node-sass: 8.0.0
-      prettier: 2.8.1
-      sass-loader: 13.2.0_kau32e7346cr5lsfcngaaxrcra
-      source-map-loader: 4.0.1_webpack@5.75.0
-      style-loader: 3.3.1_webpack@5.75.0
-      typescript: 4.9.4
-      webpack: 5.75.0_webpack-cli@5.0.1
-      webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
-      webpack-dev-server: 4.11.1_rjsyjcrmk25kqsjzwkvj3a2evq
-
   components/inferno:
     specifiers:
       '@babel/core': ^7.20.7
