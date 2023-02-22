@@ -1,4 +1,0 @@
-clean-webpack-plugin: removed dist/947.bundle.js
-clean-webpack-plugin: removed dist/bundle.js
-clean-webpack-plugin: removed dist/bundle.js.LICENSE.txt
-clean-webpack-plugin: removed dist/index.html
