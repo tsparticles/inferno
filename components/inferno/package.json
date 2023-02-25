@@ -17,10 +17,10 @@
         "prepack": "pnpm run build"
     },
     "bugs": {
-        "url": "https://github.com/matteobruni/tsparticles/issues"
+        "url": "https://github.com/tsparticles/inferno/issues"
     },
     "repository": {
-        "url": "https://github.com/matteobruni/tsparticles",
+        "url": "https://github.com/tsparticles/inferno",
         "directory": "components/inferno",
         "type": "git"
     },
