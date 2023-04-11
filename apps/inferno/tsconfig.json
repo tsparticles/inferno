@@ -8,12 +8,16 @@
 		"sourceMap": true,
 		"moduleResolution": "node",
 		"lib": [
-			"es2017",
+			"ESNext",
+			"ES2022",
+			"ES2021",
+			"ES2020",
+			"ES2019",
+			"ES2018",
+			"ES2017",
 			"dom"
 		],
-		"types": [
-			"inferno"
-		],
+		"types": ["inferno"],
 		"jsx": "preserve",
 		"noUnusedLocals": true,
 		"baseUrl": "./src",
@@ -23,8 +27,5 @@
 		"noImplicitReturns": true,
 		"noFallthroughCasesInSwitch": true
 	},
-	"include": [
-		"src/**/*",
-		"node_modules/inferno/dist/index.d.ts"
-	]
+	"include": ["src/**/*", "node_modules/inferno/dist/index.d.ts"]
 }
