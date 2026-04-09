@@ -1,3 +1,10 @@
 packages:
   - 'apps/*'
   - 'components/*'
+allowBuilds:
+  '@parcel/watcher': true
+  '@tsparticles/engine': true
+  inferno: true
+  node-sass: false
+  nx: true
+  tsparticles-engine: true
