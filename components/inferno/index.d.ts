@@ -5,7 +5,7 @@
 
 /// <reference types="inferno" />
 import type { Component, RefObject } from "inferno";
-import type { Container, ISourceOptions, Engine } from "tsparticles-engine";
+import type { Container, ISourceOptions, Engine } from "@tsparticles/engine";
 
 export interface IParticlesProps {
 	id?: string;

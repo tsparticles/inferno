@@ -1,6 +1,6 @@
 import { Component, Inferno } from "inferno";
 import equal from "fast-deep-equal/react";
-import { tsParticles, Container } from "tsparticles-engine";
+import { tsParticles, Container } from "@tsparticles/engine";
 import type { IParticlesProps } from "./IParticlesProps";
 import type { IParticlesState } from "./IParticlesState";
 
@@ -118,9 +118,11 @@ export default class Particles extends Component<IParticlesProps, IParticlesStat
 			}
 		};
 
-		const container = await (this.props.url
-			? tsParticles.loadJSON(this.props.id, this.props.url)
-			: tsParticles.load(this.props.id, this.props.params ?? this.props.options));
+		const container = await tsParticles.load({
+			id: this.props.id,
+			url: this.props.url,
+			options: this.props.params ?? this.props.options,
+		});
 
 		await cb(container);
 	}

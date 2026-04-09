@@ -15,9 +15,9 @@
     "dependencies": {
         "inferno": "^8.0.5",
         "@tsparticles/inferno": "workspace:^",
-        "tsparticles": "^2.8.0",
+        "tsparticles": "^4.0.0-beta.11",
         "@tsparticles/configs": "^3.9.1",
-        "tsparticles-engine": "^2.8.0"
+        "@tsparticles/engine": "^4.0.0-beta.11"
     },
     "devDependencies": {
         "@babel/core": "^7.20.7",
