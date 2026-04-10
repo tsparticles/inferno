@@ -1,0 +1,806 @@
+{
+  "apps/inferno": {
+    "root": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.executor": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.options": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.metadata": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.options.script": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.metadata.scriptContent": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.metadata.runCommand": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.check": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.check.executor": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.check.options": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.check.metadata": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.check.options.script": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.check.metadata.scriptContent": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.check.metadata.runCommand": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.executor": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options.script": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.scriptContent": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.runCommand": [
+      "apps/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build:ci.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build:ci.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "components/inferno": {
+    "root": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:front-end": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:frontend": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:tsparticles": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particles.js": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particlesjs": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particles": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particle": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:canvas": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:jsparticles": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:xparticles": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particles-js": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particles-bg": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particles-bg-vue": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particles-ts": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particles.ts": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:react-particles-js": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:react-particles.js": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:react-particles": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:react": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:reactjs": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:vue-particles": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:ngx-particles": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:angular-particles": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particleground": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:vue": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:vuejs": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:preact": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:preactjs": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:jquery": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:angularjs": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:angular": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:typescript": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:javascript": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:animation": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:web": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:html5": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:web-design": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:webdesign": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:css": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:html": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:css3": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:animated": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:background": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:confetti": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:fireworks": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:fireworks-js": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:confetti-js": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:confettijs": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:fireworksjs": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:canvas-confetti": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.9": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.executor": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.options": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.metadata": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.options.script": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.metadata.scriptContent": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.metadata.runCommand": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.check": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.check.executor": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.check.options": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.check.metadata": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.check.options.script": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.check.metadata.scriptContent": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.check.metadata.runCommand": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ci": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ci.executor": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ci.options": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ci.metadata": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ci.options.script": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ci.metadata.scriptContent": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ci.metadata.runCommand": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:src": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:src.executor": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:src.options": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:src.metadata": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:src.options.script": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:src.metadata.scriptContent": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:src.metadata.runCommand": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:readme": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:readme.executor": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:readme.options": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:readme.metadata": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:readme.options.script": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:readme.metadata.scriptContent": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:readme.metadata.runCommand": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:src": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:src.executor": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:src.options": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:src.metadata": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:src.options.script": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:src.metadata.scriptContent": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:src.metadata.runCommand": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:readme": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:readme.executor": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:readme.options": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:readme.metadata": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:readme.options.script": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:readme.metadata.scriptContent": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:readme.metadata.runCommand": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepack": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepack.executor": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepack.options": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepack.metadata": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepack.options.script": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepack.metadata.scriptContent": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepack.metadata.runCommand": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "components/inferno/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build:ci.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build:ci.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  }
+}

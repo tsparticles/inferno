@@ -1,0 +1,36 @@
+
+> @tsparticles/inferno@2.8.0 build C:\Projects\GitHub\inferno\components\inferno
+> pnpm run prettify:src && pnpm run lint && webpack --mode production && pnpm run prettify:readme
+
+
+> @tsparticles/inferno@2.8.0 prettify:src C:\Projects\GitHub\inferno\components\inferno
+> prettier --write ./src/*
+
+src/index.ts 23ms
+src/IParticlesProps.ts 9ms
+src/IParticlesState.ts 2ms
+src/Particles.tsx 33ms
+
+> @tsparticles/inferno@2.8.0 lint C:\Projects\GitHub\inferno\components\inferno
+> eslint src --ext .js,.jsx,.ts,.tsx --fix
+
+(node:41548) ESLintIgnoreWarning: The ".eslintignore" file is no longer supported. Switch to using the "ignores" property in "eslint.config.js": https://eslint.org/docs/latest/use/configure/migration-guide#ignore-files
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+Oops! Something went wrong! :(
+
+ESLint: 10.2.0
+
+ESLint couldn't find an eslint.config.(js|mjs|cjs) file.
+
+From ESLint v9.0.0, the default configuration file is now eslint.config.js.
+If you are using a .eslintrc.* file, please follow the migration guide
+to update your configuration file to the new format:
+
+https://eslint.org/docs/latest/use/configure/migration-guide
+
+If you still have problems after following the migration guide, please stop by
+https://eslint.org/chat/help to chat with the team.
+
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 2.[39m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 2.[39m

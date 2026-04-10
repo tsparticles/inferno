@@ -1,0 +1,12 @@
+
+> @tsparticles/inferno@2.8.0 build:ci C:\Projects\GitHub\inferno\components\inferno
+> pnpm run prettify:ci:src && pnpm run lint && webpack --mode production && pnpm run prettify:ci:readme
+
+
+> @tsparticles/inferno@2.8.0 prettify:ci:src C:\Projects\GitHub\inferno\components\inferno
+> prettier --check ./src/*
+
+Checking formatting...
+[[31merror[39m] Cannot find package 'prettier-plugin-multiline-arrays' imported from C:\Projects\GitHub\inferno\components\inferno\noop.js
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m

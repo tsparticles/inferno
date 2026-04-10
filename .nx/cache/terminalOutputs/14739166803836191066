@@ -1,0 +1,16 @@
+
+> @tsparticles/inferno@2.8.0 build:ci C:\Projects\GitHub\inferno\components\inferno
+> pnpm run prettify:ci:src && pnpm run lint && webpack --mode production && pnpm run prettify:ci:readme
+
+
+> @tsparticles/inferno@2.8.0 prettify:ci:src C:\Projects\GitHub\inferno\components\inferno
+> prettier --check ./src/*
+
+Checking formatting...
+[[33mwarn[39m] src/index.ts
+[[33mwarn[39m] src/IParticlesProps.ts
+[[33mwarn[39m] src/IParticlesState.ts
+[[33mwarn[39m] src/Particles.tsx
+[[33mwarn[39m] Code style issues found in 4 files. Run Prettier with --write to fix.
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m

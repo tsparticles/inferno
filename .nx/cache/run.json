@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "cli run build --stream --no-private",
+    "startTime": "2026-04-09T19:52:31.134Z",
+    "endTime": "2026-04-09T19:52:36.260Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@tsparticles/inferno:build",
+      "target": "build",
+      "projectName": "@tsparticles/inferno",
+      "hash": "8462661002378406482",
+      "startTime": "2026-04-09T19:52:31.151Z",
+      "endTime": "2026-04-09T19:52:36.254Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

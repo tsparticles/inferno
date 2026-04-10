@@ -1,0 +1,267 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.4",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".husky/.gitignore",
+        "hash": "4575667007673887251"
+      },
+      {
+        "file": ".github/FUNDING.yml",
+        "hash": "2320204612366203624"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "11374241937184452710"
+      },
+      {
+        "file": "README.md",
+        "hash": "11701042662734810254"
+      },
+      {
+        "file": "renovate.json",
+        "hash": "15495251679673267221"
+      },
+      {
+        "file": "package.json",
+        "hash": "3380298504221221649"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "8318549792404395007"
+      },
+      {
+        "file": ".github/workflows/nodejs.yml",
+        "hash": "14155952286390008242"
+      },
+      {
+        "file": ".husky/commit-msg",
+        "hash": "13890091524433070441"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "8123683358474757574"
+      },
+      {
+        "file": "nx.json",
+        "hash": "93868292560654171"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "11073060068597608745"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "14361870659202179179"
+      }
+    ],
+    "projectFileMap": {
+      "@tsparticles/inferno-demo": [
+        {
+          "file": "apps/inferno/.babelrc",
+          "hash": "14405846227576461168"
+        },
+        {
+          "file": "apps/inferno/.editorconfig",
+          "hash": "18415763910088156081"
+        },
+        {
+          "file": "apps/inferno/README.md",
+          "hash": "357655849950557967"
+        },
+        {
+          "file": "apps/inferno/package.json",
+          "hash": "5949202310762893473",
+          "deps": [
+            "npm:@babel/core",
+            "npm:@babel/plugin-proposal-class-properties",
+            "npm:@babel/preset-env",
+            "npm:@babel/preset-typescript",
+            "npm:babel-loader",
+            "npm:babel-plugin-inferno",
+            "npm:clean-webpack-plugin",
+            "npm:css-loader",
+            "npm:html-webpack-plugin",
+            "npm:node-sass",
+            "npm:sass-loader",
+            "npm:source-map-loader",
+            "npm:style-loader",
+            "npm:typescript@6.0.2",
+            "npm:webpack",
+            "npm:webpack-cli",
+            "npm:webpack-dev-server",
+            "npm:@tsparticles/configs",
+            "npm:@tsparticles/engine",
+            "@tsparticles/inferno",
+            "npm:inferno",
+            "npm:tsparticles"
+          ]
+        },
+        {
+          "file": "apps/inferno/src/components/Incrementer.css",
+          "hash": "4982371606263039752"
+        },
+        {
+          "file": "apps/inferno/src/components/Incrementer.css.map",
+          "hash": "1979186554364533509"
+        },
+        {
+          "file": "apps/inferno/src/components/Incrementer.scss",
+          "hash": "6663651542852497414"
+        },
+        {
+          "file": "apps/inferno/src/components/Incrementer.tsx",
+          "hash": "6672423017994545657"
+        },
+        {
+          "file": "apps/inferno/src/components/Visualizer.css",
+          "hash": "4204036469734867840"
+        },
+        {
+          "file": "apps/inferno/src/components/Visualizer.tsx",
+          "hash": "15866305545934178323"
+        },
+        {
+          "file": "apps/inferno/src/index.html",
+          "hash": "690977380684043998"
+        },
+        {
+          "file": "apps/inferno/src/index.tsx",
+          "hash": "13599818053513788123"
+        },
+        {
+          "file": "apps/inferno/src/main.css",
+          "hash": "12291878987057630661"
+        },
+        {
+          "file": "apps/inferno/src/utils/math.ts",
+          "hash": "14094787869581361010"
+        },
+        {
+          "file": "apps/inferno/tsconfig.json",
+          "hash": "9912328775529521560"
+        },
+        {
+          "file": "apps/inferno/webpack.config.js",
+          "hash": "9380745019422156765"
+        }
+      ],
+      "@tsparticles/inferno": [
+        {
+          "file": "components/inferno/.babelrc",
+          "hash": "14405846227576461168"
+        },
+        {
+          "file": "components/inferno/.editorconfig",
+          "hash": "18415763910088156081"
+        },
+        {
+          "file": "components/inferno/.eslintignore",
+          "hash": "17030786317414706557"
+        },
+        {
+          "file": "components/inferno/.eslintrc.js",
+          "hash": "10826143361725950632"
+        },
+        {
+          "file": "components/inferno/LICENSE",
+          "hash": "14361870659202179179"
+        },
+        {
+          "file": "components/inferno/README.md",
+          "hash": "6099689666977031392"
+        },
+        {
+          "file": "components/inferno/index.d.ts",
+          "hash": "12306406502650793116"
+        },
+        {
+          "file": "components/inferno/index.js",
+          "hash": "14719123917989438654"
+        },
+        {
+          "file": "components/inferno/package.json",
+          "hash": "14695458824437382742",
+          "deps": [
+            "npm:inferno",
+            "npm:@babel/core",
+            "npm:@babel/plugin-proposal-class-properties",
+            "npm:@babel/plugin-transform-runtime",
+            "npm:@babel/preset-env",
+            "npm:@babel/preset-typescript",
+            "npm:@babel/runtime",
+            "npm:@tsparticles/prettier-config",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:babel-loader",
+            "npm:babel-plugin-inferno",
+            "npm:clean-webpack-plugin",
+            "npm:css-loader",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:html-webpack-plugin",
+            "npm:node-sass",
+            "npm:prettier",
+            "npm:prettier-plugin-multiline-arrays",
+            "npm:sass-loader",
+            "npm:source-map-loader",
+            "npm:style-loader",
+            "npm:typescript@6.0.2",
+            "npm:webpack",
+            "npm:webpack-cli",
+            "npm:webpack-dev-server",
+            "npm:@tsparticles/engine",
+            "npm:fast-deep-equal"
+          ]
+        },
+        {
+          "file": "components/inferno/src/IParticlesProps.ts",
+          "hash": "10537380256708447049"
+        },
+        {
+          "file": "components/inferno/src/IParticlesState.ts",
+          "hash": "13713405285194062830"
+        },
+        {
+          "file": "components/inferno/src/Particles.tsx",
+          "hash": "14431144756372009706"
+        },
+        {
+          "file": "components/inferno/src/index.ts",
+          "hash": "11680437426731377478"
+        },
+        {
+          "file": "components/inferno/traduction/README.de.md",
+          "hash": "4245532360467540906"
+        },
+        {
+          "file": "components/inferno/traduction/README.mn.md",
+          "hash": "11297458713768178366"
+        },
+        {
+          "file": "components/inferno/traduction/README.nl.md",
+          "hash": "16070835705714343272"
+        },
+        {
+          "file": "components/inferno/traduction/README.pt-br.md",
+          "hash": "7320125774494935820"
+        },
+        {
+          "file": "components/inferno/traduction/README.ru.md",
+          "hash": "656067914898836178"
+        },
+        {
+          "file": "components/inferno/tsconfig.json",
+          "hash": "8787174202062042342"
+        },
+        {
+          "file": "components/inferno/webpack.config.js",
+          "hash": "17682431124386096255"
+        }
+      ]
+    }
+  }
+}
