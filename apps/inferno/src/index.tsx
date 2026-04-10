@@ -1,6 +1,6 @@
 import { Component, render, version } from 'inferno';
 import { Incrementer } from './components/Incrementer';
-import Particles from "@tsparticles/inferno";
+import Particles from "inferno-particles";
 import './main.css';
 import { Engine } from "tsparticles-engine";
 import { loadFull } from "tsparticles";

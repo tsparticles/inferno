@@ -1,25 +1,25 @@
 [![banner](https://particles.js.org/images/banner3.png)](https://particles.js.org)
 
-# @tsparticles/inferno
+# inferno-particles
 
-[![npm](https://img.shields.io/npm/v/@tsparticles/inferno)](https://www.npmjs.com/package/@tsparticles/inferno) [![npm](https://img.shields.io/npm/dm/@tsparticles/inferno)](https://www.npmjs.com/package/@tsparticles/inferno) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
+[![npm](https://img.shields.io/npm/v/inferno-particles)](https://www.npmjs.com/package/inferno-particles) [![npm](https://img.shields.io/npm/dm/inferno-particles)](https://www.npmjs.com/package/inferno-particles) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
 
 Official [tsParticles](https://github.com/matteobruni/tsparticles) Inferno component
 
-[![Slack](https://particles.js.org/images/slack.png)](https://join.slack.com/t/tsparticles/shared_invite/enQtOTcxNTQxNjQ4NzkxLWE2MTZhZWExMWRmOWI5MTMxNjczOGE1Yjk0MjViYjdkYTUzODM3OTc5MGQ5MjFlODc4MzE0N2Q1OWQxZDc1YzI) [![Discord](https://particles.js.org/images/discord.png)](https://discord.gg/hACwv45Hme) [![Telegram](https://particles.js.org/images/telegram.png)](https://t.me/tsparticles)
+[![Discord](https://particles.js.org/images/discord.png)](https://discord.gg/hACwv45Hme) [![Telegram](https://particles.js.org/images/telegram.png)](https://t.me/tsparticles)
 
 [![tsParticles Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=186113&theme=light)](https://www.producthunt.com/posts/tsparticles?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-tsparticles") <a href="https://www.buymeacoffee.com/matteobruni"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a beer&emoji=🍺&slug=matteobruni&button_colour=5F7FFF&font_colour=ffffff&font_family=Arial&outline_colour=000000&coffee_colour=FFDD00"></a>
 
 ## Installation
 
 ```shell
-npm install @tsparticles/inferno
+npm install inferno-particles
 ```
 
 or
 
 ```shell
-yarn add @tsparticles/inferno
+yarn add inferno-particles
 ```
 
 ## How to use
@@ -31,7 +31,7 @@ Examples:
 _Remote url_
 
 ```javascript
-import Particles from "@tsparticles/inferno";
+import Particles from "inferno-particles";
 import { loadFull } from "tsparticles";
 
 class App extends Component {
@@ -71,7 +71,7 @@ class App extends Component {
 _Options object_
 
 ```javascript
-import Particles from "@tsparticles/inferno";
+import Particles from "inferno-particles";
 import { loadFull } from "tsparticles";
 
 class App extends Component {
@@ -140,9 +140,6 @@ class App extends Component {
                             enable: true,
                             opacity: 0.5,
                             width: 1,
-                        },
-                        collisions: {
-                            enable: true,
                         },
                         move: {
                             direction: "none",
